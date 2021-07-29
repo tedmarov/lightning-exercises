@@ -1,0 +1,52 @@
+1. Copy and paste the following code in the body of your index.html and in main.js
+<div>
+<button onClick='console.log(explicit())'>explicit block</button>
+<button onClick='console.log(implicit())'>implicit block</button>
+</div>
+function explicit() {
+  return 'a'
+ }
+function implicit() {
+  'a'
+ }
+When you click the buttons, what output do you get in your console? Is it what you expected? Why or why not?
+2. Copy and paste the following code in the body of your index.html and in main.js  and refresh your browser.
+<br>
+<div>
+<button onClick='console.log(implicit2())'>implicit 2</button>
+<button onClick='console.log(explicit2())'>explicit 2</button>
+</div>
+...
+const implicit2 = () => 'thing'
+const explicit2 = () => {
+   return 'thing'
+ }
+When you click the buttons, what output do you get in your console? Is it what you expected? Why or why not?
+3a. Copy and paste the following code in main.js , return a condition for filtering all numbers greater than or equal to 10. Refresh your browser.
+let filtered1 = [12, 5, 8, 130, 44].filter(value => {
+  //return a condition 
+})
+console.log('filtered1',filtered)
+Check the output in your console.
+3b.  Copy and paste the following code in main.js , add a condition with no return statement to filter all numbers greater than or equal to 10. Refresh your browser.
+let filtered2 = [12, 5, 8, 130, 44].filter(some code with no return statment goes here...)
+console.log('filtered2',filtered2)
+Check the output in your console.
+3c. Copy and paste the following code in main.js and refresh your browser.
+function isBigEnough(value) {
+  return value >= 10
+}
+let filtered3 = [12, 5, 8, 130, 44].filter(isBigEnough)
+console.log('filtered3', filtered3)
+Check the output in your console. Is it what you expected for all three filters? Why or why not?
+4. Copy and Paste the following code in main.js , add the necessary code and refresh your browser.
+const sayHello = who => {
+  const greeting = 'Hello '
+//Concatenate the above string with the who and put it in a variable
+// Return that variable
+  }
+const hi = sayHello('hi')
+console.log(hi)
+Check the output in your console.
+4b. Remove the word return in the function above and refresh your browser. Does this change your output? Why or why not?
+4c. Refactor the function above to a single line function with an implicit return. (edited)
