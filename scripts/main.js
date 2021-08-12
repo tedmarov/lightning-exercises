@@ -64,19 +64,19 @@ let filtered3 = [12, 5, 8, 130, 44].filter(isBigEnough)
 console.log(filtered3)
 
 
-const sayHello1 = who => {
-    const greeting = 'Hello '
-    const message = greeting + who
-    return message
-  //Concatenate the above string with the who and put it in a variable
-  // Return that variable
-    }
-  const hi = sayHello1('hi')
-  console.log(hi)
+// const sayHello1 = who => {
+//     const greeting = 'Hello '
+//     const message = greeting + who
+//     return message
+//   //Concatenate the above string with the who and put it in a variable
+//   // Return that variable
+//     }
+//   const hi = sayHello1('hi')
+//   console.log(hi)
 
 
-  const sayHello2 = who => `hello ${who}`
-  //Concatenate the above string with the who and put it in a variable
-  // Return that variable
-  const hiAgain = sayHello2('hi')
-  console.log(hiAgain)
+//   const sayHello2 = who => `hello ${who}`
+//   //Concatenate the above string with the who and put it in a variable
+//   // Return that variable
+//   const hiAgain = sayHello2('hi')
+//   console.log(hiAgain)
