@@ -1,10 +1,10 @@
 console.log("Welcome to the main module")
 
-// import { mathOps } from "./Operations.js"
+import { mathOps } from "./Operations.js"
 
-// const result = mathOps(8, 2, "addition")
+const result = mathOps(8, 2, "addition")
 
-// console.log(result)
+console.log(result)
 
 // const doozy = ['beaut', 'beauty', 'bees-knees', 'cats-meow', 'corker', 'crackerjack', 'daisy', 'dandy', 'dilly', 'dream', 'honey', 'hot-stuff', 'humdinger', 'hummer', 'jim-dandy', 'knockout', 'lollapalooza', 'lulu', 'nifty', 'peach', 'pip', 'pippin', 'ripper', 'ripsnorter', 'snorter', 'sockdolager', 'standout', 'sweetheart']
 
